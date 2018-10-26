@@ -1,4 +1,4 @@
-console.log('modul matematyczny');
+//console.log('modul matematyczny');
 
 const Pi = 3.14;
 
@@ -8,3 +8,4 @@ module.exports.add = function add(a,b)
 {
     return a+b;
 }
+
