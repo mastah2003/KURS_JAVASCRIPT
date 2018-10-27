@@ -1,6 +1,6 @@
-// 3)------------------------------------ calculate sum of the odd items--------------------------------------
+//3)------------------------------------ calculate sum of the odd items--------------------------------------
 
-//  let Tab= [1,6,23,8,4,98,3,7,3,98,4,98];
+// let Tab= [1,6,23,8,4,98,3,7,3,98,4,98];
 // let oddSum = 0;
 // for(let i=0; i<Tab.length ; i++)
 // {
@@ -11,7 +11,6 @@
 // }
 // console.log(oddSum); 
 
-//ERROR -  UWAGA NA SLOWO length !!!
 
 //--------------------4)	Choose highest and lowest values from the given array (for Tab) -  One loop run----------------
 
