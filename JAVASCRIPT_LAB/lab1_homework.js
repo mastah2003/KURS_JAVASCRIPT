@@ -80,20 +80,19 @@
 // -----------    7)	Calculate average value from the given array for even numbers ----------------------
 //------------------------- even = parzysty,   odd = nieparzysty (dziwny).----------------------------------
 
-// let Tab = [1,6,23,8,4,98,3,7,3,98,4,98];
-// let numberOfElements = 0;
-// let sum = 0;
-// let averageValue;
+let Tab = [1,6,23,8,4,98,3,7,3,98,4,98];
+let numberOfElements = 0;
+let sum = 0;
 
-// for(let i=0; i<Tab.length ; i++)
-//     {
-//    //     if(!(i % 2) && !i )  // zadanie 8
-//           if( !(Tab[i] % 2) )
-//             {
-//                     sum = sum + Tab[i];
-//                     numberOfElements++;
-//             }   
-//     }
+for(let i=0; i<Tab.length ; i++)
+    {
+   //     if(!(i % 2) && !i )  // zadanie 8
+          if( !(Tab[i] % 2) )
+            {
+                    sum = sum + Tab[i];
+                    numberOfElements++;
+            }   
+    }
 
-// averageValue = sum / numberOfElements;
-// console.log('Average value of even objects is: ', averageValue);
+
+console.log('Average value of even objects is: ', sum/numberOfElements);
