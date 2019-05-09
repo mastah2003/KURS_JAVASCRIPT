@@ -1,16 +1,26 @@
 //asynchro
-function multi(a,b,callback)
+module.exports.multi = function(a,b,callback)
 {
     setTimeout(function()
     {
     const resultAB = a*b;
     callback(resultAB);
-    },5000);
+    },2500);
 }
+;
 
-// synchro
-module.exports.multi = function(a,b)
+module.exports.divide = function(a,b,callback)
 {
-    return a*b;
-} 
+    setTimeout(function()
+    {
+    const resultAB = a/b;
+    callback(resultAB);
+    });
+}
+;
+// synchro
+// module.exports.multi = function(a,b)
+// {
+//     return a*b;
+// } 
 
